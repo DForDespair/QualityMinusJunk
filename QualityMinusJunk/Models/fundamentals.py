@@ -70,7 +70,7 @@ class CashFlowStatement:
 @dataclass
 class FundamentalSnapshot:
     report_date: datetime
-    fiscal_period: str
+    fiscal_period: FiscalPeriod
     income_statement: IncomeStatement
     balance_sheet: BalanceSheet
     cash_flow_statement: CashFlowStatement    
